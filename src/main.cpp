@@ -6,7 +6,7 @@
 
 #include "encoder.h"
 
-//attachInterrupt(encoder_Pin,interrupt, RISING); // comment sasa
+//attachInterrupt(encoder_Pin,interrupt, RISING); 
   volatile uint16_t A_Counter = 7433;         // note the variable is declared in the header file as extern. Its initial value is assigned here
 
 
