@@ -40,3 +40,4 @@ void LED_off(void);
 void LED_init(void);
 void executeCommand(char *command);
 void pins_disable(void);
+void aggregateASCOMCommand(USART_t* beans, char* command);
